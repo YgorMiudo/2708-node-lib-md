@@ -2,11 +2,12 @@
   "name": "2708-node-lib-md",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js", 
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cli": "node ./scr/cli.js ./arquivos/texto.md"
+    "cli": "node ./src/cli.js ./arquivos/texto.md",
+    "cli:valida": "node ./src/cli.js ./arquivos/texto.md --valida"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,6 @@
   },
   "homepage": "https://github.com/alura-cursos/2708-node-lib-md#readme",
   "dependencies": {
-    "chalk": "^5.0.1"
+    "chalk": "5.0.1"
   }
 }
